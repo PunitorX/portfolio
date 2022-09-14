@@ -31,7 +31,6 @@
   position: absolute;
   left: 0;
   z-index: 999;
-  border-right: 2px solid #006E33;
   z-index: 1;
 }
 
@@ -40,7 +39,7 @@
 }
 
 #dark .navbar {
-  background-color: #006E33;
+  background-color: #003B1B;
 }
 
 .nav-list {
