@@ -3,14 +3,14 @@ import IntroSection from '../../IntroSection'
 import MainSection from '../../MainSection'
 import ProjectSection from '../../ProjectSection'
 import ContactSection from '../../ContactSection'
-import { introData } from './Data'
+import { introData, mainData, projectData } from './Data'
 
 function Main() {
   return (
     <>
         <IntroSection {...introData} />
-        <MainSection />
-        <ProjectSection />
+        <MainSection {...mainData}/>
+        <ProjectSection {...projectData} />
         <ContactSection />
     </>
   )

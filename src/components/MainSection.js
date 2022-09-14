@@ -1,8 +1,18 @@
 import React from 'react'
+import './MainSection.css'
 
-function MainSection() {
+function MainSection({name, header}) {
   return (
-    <div>MainSection</div>
+    <div className="main">
+        <div className="main-container">
+            <div className="main-name">
+                {name}
+            </div>
+            <div className="main-header">
+                {header}
+            </div>
+        </div>
+    </div>
   )
 }
 

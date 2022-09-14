@@ -22,19 +22,21 @@ function App() {
     <Router>
       <div className='navbar'>
           <ul className="nav-list">
-            <li id='switch'>
+            <li className='nav-item'>
               <ReactSwitch onChange={toggleTheme} checked={theme === 'dark'} />
             </li>
-            <li className="nav-item">
+            <li className="nav-item" id='nav-icon'>
               <a href="https://github.com/PunitorX" className='nav-link'><BsGithub /></a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" id='nav-icon'>
               <a href="https://www.linkedin.com/in/brendan-jones-75ab16227/" className='nav-link'><BsLinkedin /></a>
             </li>
           </ul>
       </div>
       <Routes>
-        <Route path='/' exact element={<Main />} />
+        {/* <div className='div-main'> */}
+          <Route path='/' exact element={<Main />} />
+        {/* </div> */}
       </Routes>
     </Router>
       

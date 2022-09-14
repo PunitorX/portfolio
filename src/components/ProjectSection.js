@@ -1,8 +1,18 @@
 import React from 'react'
+import './ProjectSection.css'
 
-function ProjectSection() {
+function ProjectSection({name, header}) {
   return (
-    <div>ProjectSection</div>
+    <div className="project">
+        <div className="project-container">
+            <div className="project-name">
+                {name}
+            </div>
+            <div className="project-header">
+                {header}
+            </div>
+        </div>
+    </div>
   )
 }
 

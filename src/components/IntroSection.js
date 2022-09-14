@@ -1,6 +1,7 @@
 import React from 'react'
+import './IntroSection.css'
 
-function IntroSection({name, header}) {
+function IntroSection({name, header, desc}) {
   return (
     <div className="intro">
         <div className="intro-container">
@@ -9,6 +10,9 @@ function IntroSection({name, header}) {
             </div>
             <div className="intro-header">
                 {header}
+            </div>
+            <div className="intro-description">
+                I{desc}
             </div>
         </div>
     </div>
