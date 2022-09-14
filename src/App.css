@@ -17,14 +17,6 @@
   flex-direction: column;
 }
 
-#light {
-  background-color: #fff;
-}
-
-#dark {
-  background-color: black;
-}
-
 .navbar {
   height: 100%;
   width: 5%;
@@ -32,14 +24,6 @@
   left: 0;
   z-index: 999;
   z-index: 1;
-}
-
-#light .navbar {
-  background-color: #fff;
-}
-
-#dark .navbar {
-  background-color: #003B1B;
 }
 
 .nav-list {
@@ -51,8 +35,37 @@
   padding-top: 5rem;
 }
 
+#switch {
+  padding: 2rem 0;
+}
+
 .nav-item {
   padding: 2rem 0;
+}
+
+.nav-item:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.5);
+}
+
+/* Toggle Button Styles */
+
+#light {
+  background-color: #EEE1C6;
+  color: #000;
+}
+
+#dark {
+  background-color: black;
+  color: #fff;
+}
+
+#light .navbar {
+  background-color: #CBDCCB;
+}
+
+#dark .navbar {
+  background-color: #003B1B;
 }
 
 #light .nav-link {
