@@ -1,38 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#light {
+  background-color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#dark {
+  background-color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  height: 100%;
+  width: 5%;
+  position: absolute;
+  left: 0;
+  z-index: 999;
+  border-right: 2px solid #006E33;
+  z-index: 1;
+}
+
+#light .navbar {
+  background-color: #fff;
+}
+
+#dark .navbar {
+  background-color: #006E33;
+}
+
+.nav-list {
+  list-style-type: none;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 2.3rem;
+  padding-top: 5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-item {
+  padding: 2rem 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#light .nav-link {
+  color: #000;
 }
+
+#dark .nav-link {
+  color: #fff;
+}
+
+
+
+
