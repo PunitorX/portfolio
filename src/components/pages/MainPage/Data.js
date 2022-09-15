@@ -1,7 +1,7 @@
 export const introData = {
     name: 'Brendan Jones',
     header: 'Front End Developer',
-    desc: 'I am 26 years olds year'
+    // desc: 'I am 26 years olds year'
 }
 
 export const mainData = {
