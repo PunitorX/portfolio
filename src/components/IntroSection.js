@@ -12,7 +12,7 @@ function IntroSection({name, header, desc}) {
                 {header}
             </div>
             <div className="intro-description">
-                I{desc}
+                {/* I{desc} */}
             </div>
         </div>
     </div>
