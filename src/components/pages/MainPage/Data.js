@@ -1,15 +1,20 @@
 export const introData = {
-    name: 'Brendan Jones',
-    header: 'Front End Developer',
-    // desc: 'I am 26 years olds year'
+    intro: 'Hello!',
+    name: 'My name is Brendan Jones.',
+    header: "And I'm a Web Developer, focused on the development of front end applications and design.",
+    desc: ''
 }
 
 export const mainData = {
-    name: 'Brendan Jones',
-    header: 'Front End Developer'
+    name: 'About Me',
+    // header: 'Front End Developer'
 }
 
 export const projectData = {
-    name: 'Brendan Jones',
-    header: 'Front End Developer'
+    name: 'Projects',
+    // header: 'Front End Developer'
+}
+
+export const contactData = {
+    
 }

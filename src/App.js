@@ -2,7 +2,8 @@ import './App.css';
 import ReactSwitch from 'react-switch'
 import { createContext, useState } from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import {BsGithub, BsLinkedin} from 'react-icons/bs';
+import {BsFillMoonStarsFill, BsFillSunFill, BsGithub, BsLinkedin} from 'react-icons/bs';
+import {AiFillMail} from 'react-icons/ai'
 import Main from './components/pages/MainPage/Main';
 
 export const ThemeContext = createContext((null));
@@ -23,13 +24,18 @@ function App() {
       <div className='navbar'>
           <ul className="nav-list">
             <li className='nav-item'>
+              <BsFillSunFill size={20} className='nav-toggle'/>
               <ReactSwitch onChange={toggleTheme} checked={theme === 'dark'} />
+              <BsFillMoonStarsFill size={20}className='nav-toggle' />
             </li>
             <li className="nav-item" id='nav-icon'>
               <a href="https://github.com/PunitorX" className='nav-link'><BsGithub /></a>
             </li>
             <li className="nav-item" id='nav-icon'>
               <a href="https://www.linkedin.com/in/brendan-jones-75ab16227/" className='nav-link'><BsLinkedin /></a>
+            </li>
+            <li className="nav-item" id='nav-icon'>
+              <a href="https://www.linkedin.com/in/brendan-jones-75ab16227/" className='nav-link'><AiFillMail /></a>
             </li>
           </ul>
       </div>

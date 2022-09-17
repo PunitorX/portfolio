@@ -1,16 +1,14 @@
 import React from 'react'
 import './ProjectSection.css'
 
-function ProjectSection({name, header}) {
+function ProjectSection({name}) {
   return (
     <div className="project">
         <div className="project-container">
             <div className="project-name">
                 {name}
             </div>
-            <div className="project-header">
-                {header}
-            </div>
+            
         </div>
     </div>
   )

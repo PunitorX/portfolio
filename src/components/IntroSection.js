@@ -1,10 +1,13 @@
 import React from 'react'
 import './IntroSection.css'
 
-function IntroSection({name, header, desc}) {
+function IntroSection({intro, name, header, desc}) {
   return (
     <div className="intro">
         <div className="intro-container">
+            <div className="intro-intro">
+                {intro}
+            </div>
             <div className="intro-name">
                 {name}
             </div>
@@ -12,7 +15,7 @@ function IntroSection({name, header, desc}) {
                 {header}
             </div>
             <div className="intro-description">
-                {/* I{desc} */}
+                {desc}
             </div>
         </div>
     </div>

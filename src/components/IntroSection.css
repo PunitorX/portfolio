@@ -1,17 +1,18 @@
-.intro {
-    height: 90vh;
-    width: 100%;
+.intro-container { 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
-    padding-bottom: 10%;
+    align-items: center;
+    width: auto;
+    height:90vh;
+    font-size: 1.5rem;
+    padding-bottom: 4rem;
+    
 }
 
-.intro-container { 
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
+.intro-intro {
+    font-size: 3rem;
+    text-align: left;
 }
 
 .intro-name {
@@ -20,13 +21,13 @@
 }
 
 .intro-header {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
-.intro-description {
+/* .intro-description {
     font-size: 1.5rem;
     background-color: #00A3A3;
     padding: 3rem 0;
     margin: 5rem;
-    /* width: 50%; */
-}
+    width: 50%;
+} */
