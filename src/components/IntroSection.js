@@ -11,9 +11,6 @@ function IntroSection({intro, name, header, desc}) {
             <div className="intro-name">
                 {name}
             </div>
-            <div className="intro-header">
-                {header}
-            </div>
             <div className="intro-description">
                 {desc}
             </div>

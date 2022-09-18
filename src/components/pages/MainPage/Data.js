@@ -1,8 +1,7 @@
 export const introData = {
     intro: 'Hello!',
     name: 'My name is Brendan Jones.',
-    header: "And I'm a Web Developer, focused on the development of front end applications and design.",
-    desc: ''
+    desc: "And I'm a Web Developer, focused on the development of front end applications and design."
 }
 
 export const mainData = {
