@@ -35,7 +35,7 @@ function App() {
               <a href="https://www.linkedin.com/in/brendan-jones-75ab16227/" className='nav-link'><BsLinkedin /></a>
             </li>
             <li className="nav-item" id='nav-icon'>
-              <a href="https://www.linkedin.com/in/brendan-jones-75ab16227/" className='nav-link'><AiFillMail /></a>
+              <a href="mailto:jones.brendan1996@gmail.com" target="google.com" className='nav-link'><AiFillMail /></a>
             </li>
           </ul>
       </div>
