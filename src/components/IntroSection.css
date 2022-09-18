@@ -1,12 +1,17 @@
+.intro {
+    height: 90vh;
+}
+
 .intro-container { 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: auto;
-    height:90vh;
+    min-height: 70vh;
     font-size: 1.5rem;
-    padding-bottom: 4rem;
+    margin: 0 2rem;
+    padding: 2.5rem 0 5rem 0;
     
 }
 
