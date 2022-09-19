@@ -40,9 +40,7 @@ function App() {
           </ul>
       </div>
       <Routes>
-        {/* <div className='div-main'> */}
           <Route path='/' exact element={<Main />} />
-        {/* </div> */}
       </Routes>
     </Router>
       
