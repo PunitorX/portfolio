@@ -16,17 +16,6 @@ function IntroSection({intro, span, name, desc, resume}) {
             <div className="intro-desc">
                 {desc}
             </div>
-            <div className="intro-btn">
-             {resume} {Button ? (
-                  <Link to='../../Resume.pdf' target='_blank' className='btn-link'>
-                    <Button buttonStyle='primary' buttonColor='btn-dark'>Resume</Button>
-                  </Link>
-              ) : (
-                  <Link to='../../Resume.pdf' target='_blank' className='btn-link'>
-                    <Button buttonStyle='primary' buttonColor='btn-light'>Resume</Button>
-                  </Link>
-              )}
-            </div>
         </div>
     </div>
   )

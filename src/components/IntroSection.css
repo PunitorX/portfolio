@@ -7,11 +7,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* width: 100%; */
     min-height: 70vh;
-    font-size: 1.5rem;
     margin: 0 2rem;
     padding: 2.5rem 0 5rem 0;
+    letter-spacing: 2px;
     /* color: #ccd6f6; */
 }
 
@@ -32,12 +31,9 @@
 
 .intro-desc {
     text-align: center;
-    padding: 0 4rem 2rem 4rem;
-    padding-bottom: 2rem;
-}
-
-.intro-btn {
-    text-align: left;
+    font-size: 2rem;
+    margin: 0 4rem;
+    padding: 0 4rem 0 4rem;
 }
 
 

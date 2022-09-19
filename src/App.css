@@ -42,13 +42,17 @@
   margin: 4px 4px 0 4px;
 }
 
+.btn-link {
+  padding-bottom: 1rem;
+}
+
 /* Toggle Button Styles */
 
 
 /* 00FFFF Cards */
 
 #light {
-  background-color: #fff;
+  background-color: #eeeeee;
   color: #000;
 }
 
@@ -58,7 +62,7 @@
 }
 
 #light .navbar {
-  background-color: #EEE1C6;
+  background-color: #eeeeee;
 }
 
 #dark .navbar {
@@ -75,7 +79,7 @@
 
 /* Button Styles */
 
-#dark .btn-dark {
+#dark .btn {
   background-color: #006064;
   border: 1px solid #fff;
   color: #fff;
@@ -85,10 +89,10 @@
   opacity: .8;
 }
 
-#light .btn-light {
-  background-color: #006064;
-  border: 1px solid #fff;
-  color: #fff;
+#light .btn {
+  background-color: #eeeeee;
+  border: 1px solid #000;
+  color: #000;
 }
 
 
