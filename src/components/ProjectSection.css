@@ -1,12 +1,4 @@
 .project {
-    height: 100%;
-    width: 90%;
-    padding-bottom: 2rem ;
-}
-
-.project-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 3rem;
+    height: 100vh;
+    width: 100%;
 }

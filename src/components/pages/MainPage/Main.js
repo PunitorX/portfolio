@@ -9,8 +9,8 @@ function Main() {
   return (
     <>
         <IntroSection {...introData} />
-        <MainSection {...mainData}/>
         <ProjectSection {...projectData} />
+        <MainSection {...mainData}/>
         <ContactSection />
     </>
   )
