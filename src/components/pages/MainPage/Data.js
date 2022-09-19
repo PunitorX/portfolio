@@ -14,8 +14,10 @@ export const mainData = {
 }
 
 export const projectData = {
-    name: 'Projects',
-    // header: 'Front End Developer'
+    title: 'My current projects',
+    itemOne: 'Techverse',
+    itemTwo: 'Nikola Tesla Tribute Page',
+    itemThree: 'Upcoming: Marvel API fetch/synch',
 }
 
 export const contactData = {
