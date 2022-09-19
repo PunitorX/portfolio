@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Button } from './Button'
 import './IntroSection.css'
 
-function IntroSection({intro, name, desc, resume}) {
+function IntroSection({intro, span, name, desc, resume}) {
   return (
     <div className="intro">
         <div className="intro-container">
@@ -11,19 +11,19 @@ function IntroSection({intro, name, desc, resume}) {
                 {intro}
             </div>
             <div className="intro-name">
-                {name}
+               {span}<span>{name}</span>
             </div>
-            <div className="intro-description">
+            <div className="intro-desc">
                 {desc}
             </div>
-            <div className="main-btn">
+            <div className="intro-btn">
              {resume} {Button ? (
                   <Link to='' className='btn-link'>
                     <Button buttonStyle='primary' buttonColor='btn-dark'>Resume</Button>
                   </Link>
               ) : (
                 <Link to='' className='btn-link'>
-                    <Button buttonStyle='' buttonColor=''>Resume</Button>
+                    <Button buttonStyle='primary' buttonColor='btn-light'>Resume</Button>
                   </Link>
               )}
             </div>

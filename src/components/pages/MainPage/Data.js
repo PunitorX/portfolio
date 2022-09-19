@@ -1,7 +1,8 @@
 export const introData = {
     intro: 'Hello!',
-    name: 'My name is Brendan Jones.',
-    desc: "And I'm a Web Developer, focused on the development of front end applications and design.",
+    span: 'My name is ',
+    name: 'Brendan Jones.',
+    desc: "I'm a Web Developer, focused on the development of front end applications and design. Currently, I am looking for my first professional experience opportunity!",
     resume: 'Check out my resume!'
 }
 

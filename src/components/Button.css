@@ -9,16 +9,3 @@
     font-size: 1.5;
 }
 
-.btn-dark {
-    background-color: #006064;
-    border: 1px solid #fff;
-    color: #fff;
-}
-
-.btn-dark:hover {
-    opacity: .8;
-}
-
-.btn-light {
-
-}

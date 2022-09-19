@@ -48,7 +48,7 @@
 /* 00FFFF Cards */
 
 #light {
-  background-color: #EEE1C6;
+  background-color: #fff;
   color: #000;
 }
 
@@ -70,6 +70,24 @@
 }
 
 #dark .nav-link {
+  color: #fff;
+}
+
+/* Button Styles */
+
+#dark .btn-dark {
+  background-color: #006064;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.btn-dark:hover {
+  opacity: .8;
+}
+
+#light .btn-light {
+  background-color: #006064;
+  border: 1px solid #fff;
   color: #fff;
 }
 
