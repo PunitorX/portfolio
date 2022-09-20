@@ -1,8 +1,9 @@
 .card-container {
     width: 475px;
     height: 500px;
-    background-color: #fff;
+    background-color: #0096FF;
     border: solid 1px #000;
+    color: #000;
     border-radius: 15px;
     letter-spacing: 1px;
     padding: 2rem 1.75rem;
@@ -22,11 +23,11 @@
     text-align: center;
     display: flex;
     align-items: center;
-
+    color: #000;
 }
 
 .card-body {
-    height: 50%;
+    height: 45%;
     font-size: 1.1rem;
     padding: 1rem;
     text-align: center;
@@ -37,7 +38,7 @@
 
 .card-list {
     
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 1rem;
     text-align: center;
     display: flex;
@@ -45,10 +46,11 @@
 }
 
 .card-icons {
-    font-size: 2rem;
+    color: #000;
+    font-size: 2.5rem;
     width: 80%;
     padding: 1rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }   

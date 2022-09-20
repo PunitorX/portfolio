@@ -12,26 +12,27 @@
     padding: 2.5rem 0 5rem 0;
     letter-spacing: 2px;
     /* color: #ccd6f6; */
+    font-size: 3rem;
 }
 
 .intro-intro {
-    font-size: 3rem;
     text-align: left;
     padding-bottom: 1rem;
 }
 
 .intro-name {
-    font-size: 5rem;
     padding-bottom: 1rem;
 }
 
 #dark .intro-name span {
+    font-size: 5rem;
     color: #18ffff;
+    font-weight: bold;
 }
 
 .intro-desc {
-    text-align: center;
     font-size: 2rem;
+    text-align: center;
     margin: 0 4rem;
     padding: 0 4rem 0 4rem;
 }
