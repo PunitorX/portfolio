@@ -1,5 +1,7 @@
 import React from 'react'
 import './ProjectSection.css'
+import { Card } from './Card'
+import { Link } from 'react-router-dom'
 
 function ProjectSection({title, itemOne, itemTwo, itemThree}) {
   return (
@@ -10,14 +12,16 @@ function ProjectSection({title, itemOne, itemTwo, itemThree}) {
             </div>
             <div className="project-list">
               <li className="project-item">   
-                {itemOne}
+                {Card ? (
+                  <Link className='project-card'>
+                    <Card></Card>
+                  </Link>
+                ) : (
+                  <Link className='project-card'>
+                    <Card></Card>
+                  </Link>
+                )}
               </li>
-              <li className="project-item">   
-                {itemTwo}
-              </li>
-              {/* <li className="project-item">   
-                {itemThree}
-              </li> */}
             </div>
         </div>
     </div>
