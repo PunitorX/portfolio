@@ -15,9 +15,9 @@ function ProjectSection({title, itemOne, itemTwo, itemThree}) {
               <li className="project-item">   
                 {itemTwo}
               </li>
-              <li className="project-item">   
+              {/* <li className="project-item">   
                 {itemThree}
-              </li>
+              </li> */}
             </div>
         </div>
     </div>
