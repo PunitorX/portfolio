@@ -20,11 +20,9 @@
 
 .project-list {
     display: flex;
-    font-size: 1.5rem;
     list-style-type: none;
 }
 
 .project-item {
     margin: 1rem;
-    border: 1px solid #c62828;
 }

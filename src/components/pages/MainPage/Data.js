@@ -12,11 +12,11 @@ export const projectData = {
     itemTwo: 'Nikola Tesla Tribute Page',
     itemThree: 'Upcoming: Marvel API fetch/Async',
     bodyOne: 'Techverse is an e-commerce website to sell, explore, repair, and trade computer parts, supplies, and accessories.',
-    bodyTwo: 'Two',
-    bodyThree: 'Three',
-    listOne: 'React JS, CSS',
+    bodyTwo: 'The project is a Nikola Tesla Tribute Page. It includes short snippets about periods of his life and 4 slides that include 4 of his most important inventions and a section that includes some of his most famous quotes.',
+    bodyThree: 'This project is an upcoming API fetch/synch based on the API given by Marvel comics. I will be writing the code that can display information pertaining to any characters that reside in the Marvel comics universe.',
+    listOne: 'React JS, CSS, Styled Components',
     listTwo: 'HTML, CSS, BootStrap',
-    listThree: ''
+    listThree: 'React JS, BootStrap, Styled Components'
 }
 
 export const mainData = {

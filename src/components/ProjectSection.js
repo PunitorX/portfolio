@@ -13,12 +13,12 @@ function ProjectSection({title, itemOne, itemTwo, itemThree, bodyOne, bodyTwo, b
               <div className="project-item">
                 <Card name={itemOne} body={bodyOne} list={listOne}/>
               </div>
-              {/* <div className="project-item">
+              <div className="project-item">
                 <Card name={itemTwo} body={bodyTwo} list={listTwo}/>
               </div>
               <div className="project-item">
                 <Card name={itemThree} body={bodyThree} list={listThree}/>
-              </div> */}
+              </div>
             </div>
         </div>
     </div>
