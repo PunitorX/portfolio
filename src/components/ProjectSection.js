@@ -1,9 +1,8 @@
 import React from 'react'
 import './ProjectSection.css'
-import { Card } from './Card'
-import { Link } from 'react-router-dom'
+import Card from './Cards'
 
-function ProjectSection({title, itemOne, itemTwo, itemThree}) {
+function ProjectSection({title, itemOne, itemTwo, itemThree, bodyOne, bodyTwo, bodyThree, listOne, listTwo, listThree}) {
   return (
     <div className="project">
         <div className="project-container">
@@ -11,21 +10,20 @@ function ProjectSection({title, itemOne, itemTwo, itemThree}) {
                 {title}
             </div>
             <div className="project-list">
-              <li className="project-item">   
-                {Card ? (
-                  <Link className='project-card'>
-                    <Card></Card>
-                  </Link>
-                ) : (
-                  <Link className='project-card'>
-                    <Card></Card>
-                  </Link>
-                )}
-              </li>
+              <div className="project-item">
+                <Card name={itemOne} body={bodyOne} list={listOne}/>
+              </div>
+              {/* <div className="project-item">
+                <Card name={itemTwo} body={bodyTwo} list={listTwo}/>
+              </div>
+              <div className="project-item">
+                <Card name={itemThree} body={bodyThree} list={listThree}/>
+              </div> */}
             </div>
         </div>
     </div>
   )
 }
 
-export default ProjectSection
+export default ProjectSection;
+

@@ -9,7 +9,7 @@
     align-items: center;
     margin: 2rem;
     padding: 1rem;
-    /* color: #c62828; */
+    color: #c62828;
     letter-spacing: 2px;
 }
 
@@ -18,16 +18,13 @@
     padding-bottom: 2rem;
 }
 
-/* .project-list {
+.project-list {
     display: flex;
     font-size: 1.5rem;
     list-style-type: none;
-    color: #d32f2f;
-} */
+}
 
-/* .project-item {
-    height: 50vh;
-    width: 500px;
+.project-item {
     margin: 1rem;
-    border: 1px solid #d32f2f;
-} */
+    border: 1px solid #c62828;
+}
