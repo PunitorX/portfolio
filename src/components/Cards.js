@@ -18,7 +18,7 @@ function Card({name, body, list}) {
                 {list}
             </div>
             <div className="card-icons">
-                <div className="card-icon-item">
+                <div  className="card-icon-item">
                     <BsGithub />
                 </div>
                 <div className="card-icon-item">
