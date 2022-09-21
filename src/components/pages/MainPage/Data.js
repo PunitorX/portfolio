@@ -22,7 +22,24 @@ export const projectData = {
     gitThree: '',
     linkOne: 'https://tech-commerce-xi.vercel.app/',
     linkTwo: 'https://nikola-tesla.vercel.app/',
-    linkThree: ''
+    linkThree: '',
+
+    titleTwo: 'More Projects',
+    sItemOne: 'Dad Jokes Generator',
+    sItemTwo: '',
+    sItemThree: '',
+    sBodyOne: 'A dad joke application that uses ASYNC/AWAIT fetch request from https://icanhazdadjoke.com/api',
+    sBodyTwo: '',
+    sBodyThree: '',
+    sListOne: 'HTML, CSS, JS',
+    sListTwo: '',
+    sListThree: '',
+    sGitOne: 'https://github.com/PunitorX/Dad-Jokes',
+    sGitTwo: '',
+    sGitThree: '',
+    sLinkOne: 'https://dad-jokes-eta.vercel.app/',
+    sLinkTwo: '',
+    sLinkThree: ''
 }
 
 export const mainData = {
