@@ -62,7 +62,7 @@
 
 #dark {
   background-color: #272C33;
-  color: #fff;
+  color: #e0f2f1;
 }
 
 #light .navbar {
@@ -78,7 +78,7 @@
 }
 
 #dark .nav-link {
-  color: #fff;
+  color: #e0f2f1;
 }
 
 /* Button Styles */
