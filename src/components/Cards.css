@@ -55,6 +55,12 @@
     cursor: pointer;
 }   
 
-.card-icons:hover {
-    
-  }
+.card-icon-item {
+    color:#e0f2f1 ;
+}
+
+.card-icon-item:hover {
+    color: #000;
+    transition: 0.3s ease-in;
+    transform: scale(1.2);
+}

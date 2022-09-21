@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
+import React from 'react'
 import './Cards.css'
-import { Button } from './Button'
 import { BsGithub } from 'react-icons/bs';
 import { BiLinkExternal } from 'react-icons/bi'
 
 function Card({name, body, list, git, link}) {
-
+    const handleClick = () => {
+        onclick=(git);
+    }
     
 
     return (
@@ -21,12 +21,12 @@ function Card({name, body, list, git, link}) {
                 {list}
             </div>
             <div className="card-icons">
-                <div onClick={git} className="card-icon-item">
+                <a href={git} className="card-icon-item">
                     <BsGithub />
-                </div>
-                <div onClick={link} className="card-icon-item">
+                </a>
+                <a href={link} className="card-icon-item">
                     <BiLinkExternal />
-                </div>
+                </a>
             </div>
         </div>
     )

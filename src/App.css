@@ -13,6 +13,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  transition: 0.5s ease-in-out
 }
 
 .navbar {
@@ -22,6 +23,10 @@
   top: 0;
   left: 0;
   right: 0;
+}
+
+.switch {
+  transition: 0.5s ease-in-out
 }
 
 .nav-list {
@@ -50,6 +55,7 @@
   padding-bottom: 1rem;
 }
 
+
 /* Toggle Button Styles */
 
 
@@ -66,11 +72,11 @@
 }
 
 #light .navbar {
-  background-color: #eeeeee;
+  /* background-color: #7393B3; */
 }
 
 #dark .navbar {
-  background-color: #272C33;
+  /* background-color: #272C33; */
 }
 
 #light .nav-link {
@@ -94,9 +100,13 @@
 }
 
 #light .btn {
-  background-color: #eeeeee;
+  background-color: #89CFF0;
   border: 1px solid #000;
   color: #000;
+}
+
+#dark .btn {
+  background-color: #7393B3;
 }
 
 

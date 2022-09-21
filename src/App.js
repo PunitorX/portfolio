@@ -26,7 +26,7 @@ function App() {
           <ul className="nav-list">
             <li className='nav-item'>
               <BsFillSunFill size={20} className='nav-toggle'/>
-              <ReactSwitch onChange={toggleTheme} checked={theme === 'dark'} />
+              <ReactSwitch onChange={toggleTheme} checked={theme === 'dark'} className='switch'/>
               <BsFillMoonStarsFill size={20}className='nav-toggle' />
             </li>
             <li className="nav-item" id='nav-icon'>
