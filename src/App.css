@@ -101,12 +101,17 @@
 
 #light .btn {
   background-color: #89CFF0;
-  border: 1px solid #000;
+  border: 1px solid rgb(178, 164, 164);
   color: #000;
 }
 
 #dark .btn {
   background-color: #7393B3;
+}
+
+#light .card-container {
+  background-color: rgb(142, 177, 236);
+  color: #000;
 }
 
 

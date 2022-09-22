@@ -28,6 +28,30 @@
 
 /* Small Card Styles */
 
+.small-cards {
+    height: 100vh;
+    width: 100%;
+}
 
+.small-cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    padding: 1rem;
+    letter-spacing: 2px;
+}
 
+.small-cards-title {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.small-cards-list {
+    list-style-type: none;
+}
+
+.small-card-group {
+    display: flex;
+}
 

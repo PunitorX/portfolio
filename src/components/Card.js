@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import {motion} from 'framer-motion'
 import './Card.css'
+import { BsGithub } from 'react-icons/bs'
+import { BiLinkExternal } from 'react-icons/bi'
 
 const Size = ['large', 'medium', 'wide']
 
@@ -20,35 +22,39 @@ function Cards({name, body, list, git, link}) {
     return (
         <>
             <div className="medium">
-            <motion.div transition={{layout: {duration: 1, type: 'spring'}}} layout onClick={() => setIsOpen(!isOpen)} className='Card' style={{borderRadius: '1rem', boxShadow: '0px 10px 30px rgba(0,0,0, 0.5', width: '340px'}}>
-                <motion.img layout='position' src="./images/hardware.png" alt="hardware" className='card-img'/>
-                <motion.h2 layout='position' className='card-h2'>
-                    {name}
-                </motion.h2>
-                {isOpen && (
-                    <motion.div
-                    initial={{ opacity: 0}}
-                    animate={{ opacity: 1}}
-                    transition={{duration: 1}}
-                    className='expand'>
-                        <p>
-                            {body}
-                        </p>
-                        <motion.div className="card-list">
-                            {list}
+                <div>
+                <motion.div transition={{layout: {mass: .5, type: 'spring'}}} layout onClick={() => setIsOpen(!isOpen)} className='small-card-body' style={{borderRadius: '1rem', boxShadow: '0px 10px 30px rgba(0,0,0, 0.5', width: '400px', cursor: 'pointer'}}>
+                    <motion.h2 layout='position' className='small-card-h2'>
+                        {name}
+                    </motion.h2>
+                    {isOpen && (
+                        <motion.div
+                        initial={{ opacity: 0}}
+                        animate={{ opacity: 1}}
+                        transition={{duration: 1}}
+                        style={{height: '285px'}}
+                        className='expand'>
+                            <p className='small-card-body'>
+                                {body}
+                            </p>
+                            <motion.div className="small-card-list">
+                                {list}
+                            </motion.div>
+                            <motion.div className="small-card-icons">
+                                <a href={git} className="small-card-icon-item">
+                                    <BsGithub />
+                                </a>
+                                <a href={link} className="small-card-icon-item">
+                                    <BiLinkExternal />
+                                </a>
+                            </motion.div>
                         </motion.div>
-                        <motion.div className="card-icons">
-                            <a href={git} className="card-icon-item">
-                                <BsGithub />
-                            </a>
-                            <a href={link} className="card-icon-item">
-                                <BiLinkExternal />
-                            </a>
-                        </motion.div>
-                    </motion.div>
-                )}
-            </motion.div>
+                    )}
+                </motion.div>
+                </div>
             </div>
         </>
     );
 }
+
+export default Cards;

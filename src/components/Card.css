@@ -1,5 +1,50 @@
 .medium {
-    padding: 2rem .3rem;
-    margin: 1rem;
-    cursor: pointer;
+    height: 320px;
+    padding: 1.5rem 0 0 0;
+    margin: 0 3rem;
+    transition: all 0.5s ease-in-out;
 }
+
+.medium:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.small-card-h2 {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.small-card-body {
+    font-size: 1.2rem;
+    height: 65%;
+    background-color: #78909c;
+    padding: 1rem;
+    text-align: center;
+}
+
+.small-card-list {
+    color: #283593;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.small-card-icons {
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+}
+
+.small-card-icon-item {
+    color: #e0f2f1;
+    width: 100%;
+    font-size: 2rem;
+    padding: 1rem;
+    transition: 0.4s ease;
+}
+
+.small-card-icon-item:hover {
+    color: #000;
+    transform: scale(1.4);
+}
+
+
+
