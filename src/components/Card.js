@@ -23,7 +23,7 @@ function Cards({name, body, list, git, link}) {
         <>
             <div className="medium">
                 <div>
-                <motion.div transition={{layout: {mass: .5, type: 'spring'}}} layout onClick={() => setIsOpen(!isOpen)} className='small-card-body' style={{borderRadius: '1rem', boxShadow: '0px 10px 30px rgba(0,0,0, 0.5', width: '400px', cursor: 'pointer'}}>
+                <motion.div transition={{layout: {duration: 1, type: 'spring'}}} layout onClick={() => setIsOpen(!isOpen)} className='small-card-body' style={{borderRadius: '1rem', boxShadow: '0 0 5px 3px #fff', width: '400px', cursor: 'pointer'}}>
                     <motion.h2 layout='position' className='small-card-h2'>
                         {name}
                     </motion.h2>

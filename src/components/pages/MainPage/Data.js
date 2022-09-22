@@ -35,7 +35,7 @@ export const projectData = {
     sListTwo: 'HTML, CSS, JS',
     sListThree: 'HTML, CSS, JS',
     sGitOne: 'https://github.com/PunitorX/Dad-Jokes',
-    sGitTwo: 'https://punitorx.github.io/Color-Flipper/',
+    sGitTwo: 'https://github.com/PunitorX/Color-Flipper',
     sGitThree: 'https://github.com/PunitorX/JavaScript-StopWatch',
     sLinkOne: 'https://dad-jokes-eta.vercel.app/',
     sLinkTwo: 'https://punitorx.github.io/Color-Flipper/',
@@ -50,15 +50,17 @@ export const projectData = {
     sListFour: 'HTML, Bootstrap, JS',
     sListFive: 'HTML, CSS, JS',
     sListSix: 'HTML, CSS, JS',
+
     sGitFour: 'https://github.com/PunitorX/Weather-forecast-practice',
     sGitFive: 'https://github.com/PunitorX/JavaScript-DigitalClock',
     sGitSix: 'https://github.com/PunitorX/JavaScript-StopWatch',
+
     sLinkFour: 'https://punitorx.github.io/Weather-forecast-practice/',
-    sGitFive: 'https://punitorx.github.io/JavaScript-DigitalClock/',
+    sLinkFive: 'https://punitorx.github.io/JavaScript-DigitalClock/',
     sLinkSix: 'https://punitorx.github.io/JavaScript-StopWatch/'
 }
 
-export const mainData = {
+export const aboutData = {
     name: 'About Me',
     pOne: 'Hello, my name is Brendan Jones. As a child I had a interest in expressing my creativity in any way I could find or grab. In 2019, I began messing around with HTML/CSS while taking psychology classes. My interest in the field grew rapidly, and before I knew it, I had changed my major to Computer Science.',
     pTwo: "Jump forward to the present, and I am now working with React JS, building my own websites and obtaining any sort of experience I can. I've messed around with both front-end and back-end technologies, putting together simple applications and building databases.",

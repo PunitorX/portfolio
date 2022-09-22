@@ -1,16 +1,16 @@
 import React from 'react'
 import IntroSection from '../../IntroSection'
-import MainSection from '../../MainSection'
+import AboutSection from '../../AboutSection'
 import ProjectSection from '../../ProjectSection'
 import ContactSection from '../../ContactSection'
-import { introData, mainData, projectData } from './Data'
+import { introData, aboutData, projectData } from './Data'
 
 function Main() {
   return (
     <>
         <IntroSection {...introData} />
         <ProjectSection {...projectData} />
-        <MainSection {...mainData}/>
+        <AboutSection {...aboutData}/>
         <ContactSection />
     </>
   )

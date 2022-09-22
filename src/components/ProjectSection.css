@@ -29,7 +29,7 @@
 /* Small Card Styles */
 
 .small-cards {
-    height: 100vh;
+    height: 120vh;
     width: 100%;
 }
 
@@ -53,5 +53,9 @@
 
 .small-card-group {
     display: flex;
+}
+
+.small-cards-item {
+    height: 450px;
 }
 
