@@ -13,6 +13,7 @@
 }
 
 .project-title {
+    color: #18ffff;
     font-size: 3rem;
     padding-bottom: 2rem;
 }
@@ -43,6 +44,7 @@
 }
 
 .small-cards-title {
+    color: #18ffff;
     font-size: 2.5rem;
     padding-bottom: 2rem;
 }

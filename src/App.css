@@ -25,6 +25,7 @@ body::-webkit-scrollbar-thumb {
 /* Page Styles */
 
 .App {
+  border: 5px solid #18ffff;
   height: auto;
   display: flex;
   align-items: center;
