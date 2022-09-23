@@ -1,4 +1,44 @@
 .about {
-    height: 100vh;
-    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+    height: 70vh;
+    text-align: left;
+    
+}
+
+.about-container {
+    margin: 0 2rem;
+}
+
+.about-title {
+    font-size: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.about-group {
+    display: grid; 
+    grid-template-columns: 2fr 2fr;  
+    gap: 50px;
+}
+
+.about-body {
+    padding-left: 2rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+.about-pOne {
+    padding: 1rem 0;
+}
+
+.about-pTwo {
+    padding: 1rem 0;
+}
+
+.about-image {
+}
+
+.about-img {
+    height: 50%;
 }
