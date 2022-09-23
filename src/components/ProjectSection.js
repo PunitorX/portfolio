@@ -2,6 +2,7 @@ import React from 'react'
 import './ProjectSection.css'
 import Card from './Cards'
 import Cards from './Card.js'
+import {motion} from 'framer-motion'
 
 function ProjectSection({
   title, titleTwo, itemOne, itemTwo, itemThree, bodyOne, bodyTwo, bodyThree, listOne, listTwo, listThree, gitOne, gitTwo, gitThree, linkOne, linkTwo, linkThree, sItemOne, sItemTwo, sItemThree,sBodyOne, sBodyTwo, sBodyThree, sListOne, sListTwo, sListThree, sGitOne, sGitTwo, sGitThree, sLinkOne, sLinkTwo, sLinkThree,
@@ -35,7 +36,7 @@ function ProjectSection({
                   {titleTwo}
               </div>
               <div className="small-cards-list">
-                <div className="small-card-group">
+                <motion.div className="small-card-group">
                   <div className="small-cards-item">
                     <Cards name={sItemOne} body={sBodyOne} list={sListOne} git={sGitOne} link={sLinkOne}/>
                   </div>
@@ -45,9 +46,9 @@ function ProjectSection({
                   <div className="small-cards-item">
                     <Cards name={sItemThree} body={sBodyThree} list={sListThree} git={sGitThree} link={sLinkThree}/>
                   </div>
-                </div>
+                </motion.div>
 
-                <div className="small-card-group">
+                <motion.div className="small-card-group">
                   <div className="small-cards-item">
                     <Cards name={sItemFour} body={sBodyFour} list={sListFour} git={sGitFour} link={sLinkFour}/>
                   </div>
@@ -57,7 +58,7 @@ function ProjectSection({
                   {/* <div className="small-cards-item">
                     <Cards name={sItemSix} body={sBodySix} list={sListSix} git={sGitSix} link={sLinkSix}/>
                   </div> */}
-                </div>
+                </motion.div>
               </div>
         </div>
       </div>

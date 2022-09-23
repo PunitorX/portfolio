@@ -8,6 +8,22 @@
     box-sizing: border-box;
 }
 
+/* Scrollbar Styles */
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  background: #272C33;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #7393B3;
+  border-radius: 10px;
+}
+/* Page Styles */
+
 .App {
   height: auto;
   display: flex;
