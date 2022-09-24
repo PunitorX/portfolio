@@ -3,7 +3,7 @@ import IntroSection from '../../IntroSection'
 import AboutSection from '../../AboutSection'
 import ProjectSection from '../../ProjectSection'
 import ContactSection from '../../ContactSection'
-import { introData, aboutData, projectData } from './Data'
+import { introData, aboutData, projectData, contactData } from './Data'
 
 function Main() {
   return (
@@ -11,7 +11,7 @@ function Main() {
         <IntroSection {...introData} />
         <AboutSection {...aboutData}/>
         <ProjectSection {...projectData} />
-        <ContactSection />
+        <ContactSection {...contactData} />
     </>
   )
 }

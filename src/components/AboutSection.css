@@ -15,8 +15,8 @@
 
 .about-title {
     font-size: 3rem;
-    padding-left: 1rem;
-    padding-bottom: 1rem;
+    padding-left: 3.3rem;
+    padding-bottom: 2.5rem;
     color: #18ffff;
 }
 
@@ -27,8 +27,13 @@
 }
 
 .about-body {
-    padding-left: 1rem;
+    padding: 2rem 3rem;
     font-size: 1.3rem;
+    background-color: #7393B3;
+    /* color: #000; */
+    /* opacity: .7; */
+    border-radius: 25px;
+    border: 2px solid #000;
 }
 
 .about-pOne {
@@ -40,7 +45,7 @@
 }
 
 .about-image {
-    max-height: 425px;
+    max-height: 450px;
 }
 
 .about-img {
