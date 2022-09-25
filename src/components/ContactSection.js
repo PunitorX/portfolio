@@ -14,11 +14,11 @@ function ContactSection({chat, desc, resume}) {
                 {desc}
           </div>
           <div className="contact-resume">
-                {resume}
+                {/* {resume} */}
           </div>
           <div className="contact-icons">
             <div className="contact-item">
-                <BsPaperclip />
+                {/* <BsPaperclip /> */}
             </div>
             <div className="contact-item">
                 <a href="mailto:jones.brendan1996@gmail.com" target="google.com" className='nav-link'><BiPaperPlane /></a>

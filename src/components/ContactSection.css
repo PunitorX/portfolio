@@ -1,7 +1,31 @@
 .contact {
-    height: 60vh;
+    height: 75vh;
+    margin: 0 35rem;
 }
 
 .contact-container {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    margin: 0 2rem;
+    padding: 2.5rem 0 5rem 0;
+    letter-spacing: 2px;
+}
+
+.contact-header {
+    font-size: 4rem;
+    color: #18ffff;
+}
+
+.contact-desc {
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.contact-icons {
+    font-size: 5rem;
 }
