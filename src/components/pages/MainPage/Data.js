@@ -62,9 +62,10 @@ export const projectData = {
 
 export const aboutData = {
     name: 'About Me',
+    technology: 'Technologies',
     pOne: 'Hello, my name is Brendan Jones. As a child I had a interest in expressing my creativity in any way I could find or grab. In 2019, I began messing around with HTML/CSS while taking psychology classes. My interest in the field grew rapidly, and before I knew it, I had changed my major to Computer Science.',
-    pTwo: "Jump forward to the present, and I am now working with React JS, building my own websites and obtaining any sort of experience I can. I've messed around with both front-end and back-end technologies, putting together applications and building databases.",
-    pThree: ''
+    pTwo: "Jump forward to the present, and I am now working with React JS, building my own websites and obtaining any sort of experience I can. I've messed around with both front-end and back-end technologies, putting together small applications and building databases.",
+    pThree: 'Outside of web development I enjoy spending time with my children, playing chess, reading, watching football, playing games, astronomy, and music.'
 }
 
 export const contactData = {
