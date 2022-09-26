@@ -243,7 +243,7 @@ body::-webkit-scrollbar-thumb {
 #light .btn {
   background-color: #F675A8;
   border: 1px solid #554994;
-  color: #5;
+  color: #000;
 }
 
 #dark .btn {
