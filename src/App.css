@@ -26,7 +26,7 @@ body::-webkit-scrollbar-thumb {
 /* Page Styles */
 
 .App {
-  border: 5px solid #18ffff;
+  border: 5px solid #554994;
   height: auto;
   display: flex;
   align-items: center;
@@ -73,14 +73,10 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 1rem;
 }
 
-
-/* Toggle Button Styles */
-
-
-/* 00FFFF Cards */
+/* LIGHT THEME / DARK THEME STYLES */
 
 #light {
-  background-color: #eeeeee;
+  background-color: #FFCCB3;
   color: #000;
 }
 
@@ -89,13 +85,7 @@ body::-webkit-scrollbar-thumb {
   color: #e0f2f1;
 }
 
-#light .navbar {
-  /* background-color: #7393B3; */
-}
-
-#dark .navbar {
-  /* background-color: #272C33; */
-}
+/* NAVBAR STYLES */
 
 #light .nav-link {
   color: #000;
@@ -105,32 +95,163 @@ body::-webkit-scrollbar-thumb {
   color: #e0f2f1;
 }
 
-/* Button Styles */
+/* INTRO STYLES */
 
-#dark .btn {
-  background-color: #006064;
-  border: 1px solid #fff;
-  color: #fff;
+#dark .intro-name span {
+  font-size: 5rem;
+  color: #18ffff;
+  font-weight: bold;
 }
 
+#light .intro-name span {
+  color: #554994;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+ /* ABOUT STYLES */
+
+ #light .about-title {
+  color: #554994;
+  font-size: 3rem;
+  font-weight: bold;
+ }
+
+ #dark .about-title {
+  color: #18ffff;
+  font-size: 3rem;
+  font-weight: bold;
+ }
+
+ #light .about-tech-title {
+  padding-top: 2rem;
+  color: #554994;
+  font-size: 2rem;
+  font-weight: bold;
+ }
+
+ #dark .about-tech-title {
+  padding-top: 2rem;
+  color: #000;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+ #light .about-body {
+  background-color: #F675A8;
+  border: 2px solid #554994;
+ }
+
+ #dark .about-body {
+  background-color: #7393B3;
+  border: 2px solid #554994;
+ }
+
+ /* PROJECT AND CARD STYLES */
+
+#dark .project-title {
+  color: #18ffff;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+#light .project-title {
+  color: #554994;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+#dark .card-container {
+  background-color: #7393B3;
+  border: solid 2px #554994;
+}
+
+#light .card-container {
+  background-color: #F675A8;
+  border: 2px solid #554994;
+}
+
+#light .card-title {
+  color: #554994;
+  font-size: 1.3rem;
+}
+
+#dark .card-title {
+  color: #000;
+  font-size: 1.3rem;
+}
+
+#light .card-list {
+  color: #554994;
+}
+
+#dark .card-list {
+  color: #000;
+}
+
+#light .small-cards-title {
+  color: #554994;
+}
+
+#dark .small-cards-title {
+  color: #18ffff;
+}
+
+#light .small-card-body {
+  background-color: #F675A8;
+}
+
+#dark .small-card-body {
+  background-color: #7393B3;
+}
+
+#light .small-card-h2 {
+  color: #554994;
+}
+
+#dark .small-card-h2 {
+  color: #000;
+}
+
+#light .small-card-list {
+  color: #554994;
+}
+
+#dark .small-card-list {
+  color: #000;
+}
+
+/* CONTACT SECTION STYLES */
+
+#light .contact-header {
+  color: #554994;
+}
+
+#dark .contact-header {
+  color: #18ffff;
+}
+
+
+
+/* BUTTON STYLES */
 .btn-dark:hover {
   opacity: .8;
 }
 
 #light .btn {
-  background-color: #89CFF0;
-  border: 1px solid rgb(178, 164, 164);
-  color: #000;
+  background-color: #F675A8;
+  border: 1px solid #554994;
+  color: #5;
 }
 
 #dark .btn {
   background-color: #7393B3;
+  border: 1px solid #554994;
+  color: #EDEEF7;
 }
 
-#light .card-container {
-  background-color: rgb(142, 177, 236);
-  color: #000;
-}
 
 
 

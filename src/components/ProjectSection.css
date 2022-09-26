@@ -12,11 +12,11 @@
     letter-spacing: 2px;
 }
 
-.project-title {
+/* .project-title {
     color: #18ffff;
     font-size: 3rem;
     padding-bottom: 2rem;
-}
+} */
 
 .project-list {
     display: flex;
@@ -44,7 +44,7 @@
 }
 
 .small-cards-title {
-    color: #18ffff;
+    font-weight: bold;
     font-size: 2.5rem;
     padding-bottom: 2rem;
 }

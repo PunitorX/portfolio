@@ -13,19 +13,18 @@
 .about-title {
     display: flex;
     justify-content: center;
-    font-size: 3rem;
     padding-left: 1rem;
     padding-bottom: 2.5rem;
-    color: #18ffff;
+    /* color: #18ffff; */
 }
 
 .about-body {
     text-align: center;
     padding: 2rem 3rem;
     font-size: 1.3rem;
-    background-color: #7393B3;
+    /* background-color: #7393B3; */
     border-radius: 25px;
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
 }
 
 .about-pOne {
@@ -36,11 +35,11 @@
     padding: 1rem 0;
 }
 
-.about-tech-title {
+/* .about-tech-title {
     padding-top: 2rem;
     font-size: 2rem;
     color: #18ffff;
-}
+} */
 
 .about-tech {
     padding-top: 1.5rem;
