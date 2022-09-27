@@ -281,14 +281,14 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     flex-direction: column;
     /* padding-top: 10%; */
-    width: 100%;
+    width: 99%;
     height: 100vh;
     position: fixed;
     top: 100px;
     left: -100%;
     opacity: 1;
     transition: all 0.7s ease-in-out;
-    border-right: 5px solid #554994;
+    /* border-right: 5px solid #554994; */
     border-left: 5px solid #554994;
 }
 
