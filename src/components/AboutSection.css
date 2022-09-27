@@ -22,9 +22,7 @@
     text-align: center;
     padding: 2rem 3rem;
     font-size: 1.3rem;
-    /* background-color: #7393B3; */
     border-radius: 25px;
-    /* border: 2px solid #000; */
 }
 
 .about-pOne {
@@ -56,4 +54,39 @@
 
 .about-img {
     width: 45%;
+} 
+
+/* MEDIA QUERIES */
+
+@media (max-width: 480px) {
+    .about-container {
+        margin: 0 1rem;
+        padding: 0 1rem;
+    }
+
+    .about-body {
+        padding: 1rem 1.4rem;
+        font-size: 1.2rem;
+    }
+
+    .about-img {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about {
+        height: auto;
+    }
+
+    .about-container {
+        padding: 45px;
+        letter-spacing: 2px;
+        line-height: 2.3rem;
+    }
+
+    .about-body {
+        /* padding: 1rem 2rem; */
+        /* font-size: 1rem; */
+    }
 }

@@ -4,6 +4,7 @@ import { createContext, useState } from 'react';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import {BsFillMoonStarsFill, BsFillSunFill, BsGithub, BsLinkedin} from 'react-icons/bs';
 import {AiFillMail} from 'react-icons/ai'
+import {FaBars, FaShoppingCart, FaTimes} from 'react-icons/fa';
 import Main from './components/pages/MainPage/Main';
 import { Button } from './components/Button';
 
@@ -16,6 +17,19 @@ function App() {
     setTheme((curr) => (curr === 'light' ? 'dark' : 'light'));
   };
 
+  const [click, setClick] = useState(false);
+  // const [button, setButton] = useState(true);
+
+  const handleClick = () => setClick(!click);
+  const closeMobile = () => setClick(false);
+
+  // const showButton = () => {
+  //   if(window.innerWidth <= 960) {
+  //       setButton(false);
+  //   } else{
+  //       setButton(true)
+  //   }
+  // }
 
   return (
     <ThemeContext.Provider value={{theme, toggleTheme}}>
@@ -23,7 +37,10 @@ function App() {
 
     <Router>
       <div className='navbar'>
-          <ul className="nav-list">
+          <div className="nav-icon" onClick={handleClick}>
+              {click ? <FaTimes/> : <FaBars/>}
+          </div>
+          <ul className={click ? 'nav-list active' : 'nav-list'}>
             <li className='nav-item'>
               <BsFillSunFill size={20} className='nav-toggle'/>
               <ReactSwitch onChange={toggleTheme} checked={theme === 'dark'} className='switch'/>

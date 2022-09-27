@@ -12,12 +12,6 @@
     letter-spacing: 2px;
 }
 
-/* .project-title {
-    color: #18ffff;
-    font-size: 3rem;
-    padding-bottom: 2rem;
-} */
-
 .project-list {
     display: flex;
     list-style-type: none;
@@ -61,3 +55,18 @@
     height: 450px;
 }
 
+@media (max-width: 480px) {
+    .project-title {
+        text-align: center;
+    }
+
+    .project-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .small-card-group {
+        display: flex;
+        flex-direction: column;
+    }
+}

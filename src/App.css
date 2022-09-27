@@ -73,6 +73,10 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 1rem;
 }
 
+.nav-icon {
+  display: none;
+}
+
 /* LIGHT THEME / DARK THEME STYLES */
 
 #light {
@@ -233,8 +237,6 @@ body::-webkit-scrollbar-thumb {
   color: #18ffff;
 }
 
-
-
 /* BUTTON STYLES */
 .btn-dark:hover {
   opacity: .8;
@@ -252,7 +254,65 @@ body::-webkit-scrollbar-thumb {
   color: #EDEEF7;
 }
 
+/* MEDIA QUERIES */
+@media (max-width: 480px) {
+  .App {
+    margin: 0;
+    /* height: 100%; */
+    overflow-x: hidden;
+  }
 
+  .navbar {
+    height: 10vh;
+  }
+  
+  .nav-icon {
+    display: flex;
+    justify-content: end;
+    margin: 1rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    color: #fff;
+    font-size: 2.3rem;
+    cursor: pointer;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 10%; */
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    top: 100px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.7s ease-out;
+}
+
+  #light .nav-list.active {
+  background-color: #FFCCB3;
+  left: 0;
+  opacity: 1;
+  transition: all 0.6s ease-in;
+  z-index: 1;
+  }
+
+  #dark .nav-list.active {
+    background-color: #272C33;
+    left: 0;
+    opacity: 1;
+    transition: all 0.4s ease-in;
+    z-index: 1;
+}
+
+}
+
+/* @media screen and (min-width: 1280px) and (orientation: portrait) {
+  .App {
+    display: none;
+  }
+} */
 
 
 
