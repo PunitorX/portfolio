@@ -44,3 +44,10 @@
         text-align: center;
     }
 }
+
+@media (max-width: 768px) {
+    .contact {
+        margin: auto;
+        padding: 5rem 1rem;
+    }
+}

@@ -31,6 +31,8 @@
     padding: 0 4rem 0 4rem;
 }
 
+/* MEDIA QUERIES */
+
 @media (max-width: 480px) {
     .intro {
         height: auto;
@@ -44,7 +46,16 @@
         font-size: 1.5rem;
         padding: 0 1rem;
         margin: 0 1rem;
-        /* text-align:start; */
+    }
+}
+
+@media (max-width: 768px) {
+    .intro {
+        height: auto;
+    }
+
+    .intro-name {
+        text-align: center;
     }
 }
 

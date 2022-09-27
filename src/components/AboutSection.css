@@ -72,3 +72,12 @@
     }
 }
 
+@media (max-width: 768px) {
+    .about {
+        height: auto;
+    }
+
+    .about-container {
+        padding: 25px;
+    }
+}

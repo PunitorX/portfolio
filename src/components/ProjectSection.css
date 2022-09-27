@@ -72,3 +72,15 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 768px) {
+    .project-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .small-card-group {
+        display: flex;
+        flex-direction: column;
+    }
+}
