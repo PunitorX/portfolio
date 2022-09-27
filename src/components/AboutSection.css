@@ -59,9 +59,13 @@
 /* MEDIA QUERIES */
 
 @media (max-width: 480px) {
+    .about {
+        height: auto;
+    }
+
     .about-container {
         margin: 0 1rem;
-        padding: 0 1rem;
+        padding: 15px;
     }
 
     .about-body {
@@ -74,19 +78,3 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .about {
-        height: auto;
-    }
-
-    .about-container {
-        padding: 45px;
-        letter-spacing: 2px;
-        line-height: 2.3rem;
-    }
-
-    .about-body {
-        /* padding: 1rem 2rem; */
-        /* font-size: 1rem; */
-    }
-}

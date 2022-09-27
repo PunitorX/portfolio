@@ -10,26 +10,41 @@
     transition: all 0.5s ease-in-out;
 }
 
+.small-card-body {
+    font-size: 1.2rem;
+    height: 400px;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px 3px #fff;
+    width: 400px;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+}
+
 .small-card-h2 {
     padding: 1rem 0;
     text-align: center;
+    height: 20%;
 }
 
-.small-card-body {
-    font-size: 1.2rem;
-    height: 65%;
-    padding: 1rem;
-    text-align: center;
+.small-card-desc {
+    padding: 1rem 0;
+    height: 50%;
 }
 
 .small-card-list {
     font-weight: bold;
     padding: 0 1rem 1rem 1rem;
+    height: 15%;
 }
 
 .small-card-icons {
     padding-top: .5rem;
     padding-bottom: 1rem;
+    height: 15%;
 }
 
 .small-card-icon-item {
