@@ -1,6 +1,7 @@
 .contact {
     height: 75vh;
-    margin: 0 35rem;
+    margin: 0 30rem;
+    padding: 10rem 2rem;
 }
 
 .contact-container {
@@ -28,4 +29,18 @@
 
 .contact-icons {
     font-size: 5rem;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 480px) {
+    .contact {
+        height: auto;
+        margin: 0 2rem;
+        padding: 5rem 1rem;
+    }
+
+    .contact-container {
+        text-align: center;
+    }
 }

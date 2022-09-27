@@ -24,7 +24,7 @@
 /* Small Card Styles */
 
 .small-cards {
-    height: 115vh;
+    height: auto;
     width: 100%;
 }
 
@@ -54,6 +54,8 @@
 .small-cards-item {
     height: 450px;
 }
+
+/* MEDIA QUERIES */
 
 @media (max-width: 480px) {
     .project-title {
