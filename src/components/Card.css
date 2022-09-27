@@ -60,5 +60,12 @@
     transform: scale(1.4);
 }
 
+@media (max-width: 480px) {
+    .medium {
+        margin: 0;
+        padding: 0 45px;
+    }
+}
+
 
 
