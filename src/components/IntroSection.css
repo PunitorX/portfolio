@@ -24,17 +24,28 @@
     padding-bottom: 1rem;
 }
 
-/* #dark .intro-name span {
-    font-size: 5rem;
-    color: #18ffff;
-    font-weight: bold;
-} */
-
 .intro-desc {
     font-size: 2rem;
     text-align: center;
     margin: 0 4rem;
     padding: 0 4rem 0 4rem;
+}
+
+@media (max-width: 480px) {
+    .intro {
+        height: auto;
+    }
+
+    .intro-name {
+        text-align: center;
+    }
+
+    .intro-desc {
+        font-size: 1.5rem;
+        padding: 0 1rem;
+        margin: 0 1rem;
+        /* text-align:start; */
+    }
 }
 
 
