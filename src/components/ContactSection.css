@@ -59,7 +59,7 @@
   }
 }
 
-@media (min-width: 1281px) {
+@media (max-width: 1280px) {
     .contact {
         height: auto;
         margin: 0 2rem;

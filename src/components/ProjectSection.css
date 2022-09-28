@@ -86,7 +86,7 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1660px){
   .project-list {
     display: grid;
     grid-template-columns: 2fr 2fr;
