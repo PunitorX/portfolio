@@ -58,3 +58,11 @@
     margin:  0 2rem;
   }
 }
+
+@media (min-width: 1281px) {
+    .contact {
+        height: auto;
+        margin: 0 2rem;
+        padding: 5rem 4rem;
+    }
+}
