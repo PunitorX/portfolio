@@ -51,3 +51,10 @@
         padding: 5rem 1rem;
     }
 }
+
+@media (max-width: 1024px) {
+  .contact {
+    height: auto;
+    margin:  0 2rem;
+  }
+}

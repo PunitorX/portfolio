@@ -81,3 +81,19 @@
         padding: 25px;
     }
 }
+
+@media (max-width: 1024px) {
+    .about {
+        height: auto;
+    }
+
+    .about-container {
+        padding: 12px 1rem;
+    }
+}
+
+@media (min-width: 1281px) {
+    .about {
+        height: auto;
+    }
+}

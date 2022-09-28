@@ -309,7 +309,15 @@ body::-webkit-scrollbar-thumb {
 
 }
 
+/* MEDIA QUERIES */
+
 @media (max-width: 768px) {
+  .App {
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 1024px) {
   .App {
     overflow: hidden;
   }

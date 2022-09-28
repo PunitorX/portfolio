@@ -45,6 +45,9 @@ function ProjectSection({
                   <div className="small-cards-item">
                     <Cards name={sItemThree} body={sBodyThree} list={sListThree} git={sGitThree} link={sLinkThree}/>
                   </div>
+                  {/* <div className="small-cards-item">
+                    <Cards />
+                  </div> */}
                 </div>
 
                 <div className="small-card-group">
@@ -54,9 +57,6 @@ function ProjectSection({
                   <div className="small-cards-item">
                     <Cards name={sItemFive} body={sBodyFive} list={sListFive} git={sGitFive} link={sLinkFive}/>
                   </div>
-                  {/* <div className="small-cards-item">
-                    <Cards name={sItemSix} body={sBodySix} list={sListSix} git={sGitSix} link={sLinkSix}/>
-                  </div> */}
                 </div>
               </div>
         </div>
