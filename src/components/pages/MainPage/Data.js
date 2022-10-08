@@ -1,7 +1,7 @@
 export const introData = {
     intro: 'Hello!',
     span: 'My name is ',
-    name: 'Brendan Jones.',
+    name: 'Robert Jones.',
     desc: "I'm a Web Developer, focused on the development of front end applications and design. Currently, I am looking for my first professional experience opportunity!",
     resume: 'Check out my resume!'
 }
@@ -63,9 +63,10 @@ export const projectData = {
 export const aboutData = {
     name: 'About Me',
     technology: 'Technologies',
-    pOne: 'Hello, my name is Brendan Jones. As a child I had a interest in expressing my creativity in any way I could find or grab. In 2019, I began messing around with HTML/CSS while taking psychology classes. My interest in the field grew rapidly, and before I knew it, I had changed my major to Computer Science.',
-    pTwo: "Jump forward to the present, and I am now working with React JS, building my own websites and obtaining any sort of experience I can. I've messed around with both front-end and back-end technologies, putting together small applications and building databases.",
-    pThree: 'Outside of web development I enjoy spending time with my children, playing chess, reading, watching football, playing games, astronomy, and music.'
+    pOne: 'Hello, my name is Robert Jones. As a child I had a interest in expressing my creativity in any way I could find. In 2019, I began learning about HTML/CSS while taking psychology classes. My interest in the field grew rapidly. Eventually, I had changed my major to Computer Science.',
+    pTwo: "More recently I have been working with React JS, creating my own dynamic websites and applications using practical CSS and Tailwind CSS. I have gone from basic HTML and CSS, to working with C# and .NET creating small applications that use logic to implement databases. From the Back-End I jumped back into JavaScript and React JS to put all of my skills into place, designing websites and exploring my creativity. ",
+    pThree: 'My passion for web development came unexpectedly but grew into a world of creativity that I love using everyday. A few simple lines of code ended up changing my life in more ways than I expected.'
+    
 }
 
 export const contactData = {

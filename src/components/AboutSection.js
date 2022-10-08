@@ -49,6 +49,10 @@ function AboutSection({name, pOne, pTwo, pThree, technology}) {
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg" 
                                 className='about-img'/>
                         </li>
+                        <li className="about-tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" 
+                                className='about-img css'/>
+                        </li>
                     </ul>
                 </div>
             </div>

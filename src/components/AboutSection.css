@@ -47,9 +47,12 @@
 
 
 .about-img {
-    width: 45%;
+    width: 50%;
 } 
 
+.css{
+    width: 85%;
+} 
 /* MEDIA QUERIES */
 
 @media (max-width: 480px) {
