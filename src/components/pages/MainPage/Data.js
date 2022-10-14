@@ -1,26 +1,26 @@
 export const introData = {
     intro: 'Hello!',
     span: 'My name is ',
-    name: 'Robert Jones.',
+    name: 'Brendan Jones.',
     desc: "I'm a Web Developer, focused on the development of front end applications and design. Currently, I am looking for my first professional experience opportunity!",
     resume: 'Check out my resume!'
 }
 
 export const projectData = {
     title: 'My Current Projects',
-    itemOne: 'Techverse',
+    itemOne: 'Atlas Designs',
     itemTwo: 'Nikola Tesla Tribute Page',
     itemThree: 'Crypto Axios Request',
-    bodyOne: 'Techverse is an e-commerce website to sell, explore, repair, and trade computer parts, supplies, and accessories.',
+    bodyOne: 'Atlas Designs is an e-commerce website to sell, explore, repair, and trade computer parts, supplies, and accessories.',
     bodyTwo: 'This project is a Nikola Tesla Tribute Page. It includes short snippets about periods of his life and 4 slides that include 4 of his most important inventions and a section that includes some of his most famous quotes.',
     bodyThree: 'Crypto Axios Request uses the axios package to request data from the REST API provided by CoinGecko.com. It provides data for various cryptocurrencies and is updated daily.',
     listOne: 'React JS, CSS, Styled Components',
     listTwo: 'HTML, CSS, BootStrap',
     listThree: 'React JS, TailWind CSS',
-    gitOne: 'https://github.com/PunitorX/tech-commerce',
+    gitOne: 'https://github.com/PunitorX/Atlas-Designs',
     gitTwo: 'https://github.com/PunitorX/Nikola-Tesla',
     gitThree: 'https://github.com/PunitorX/crypto-api',
-    linkOne: 'https://tech-commerce-xi.vercel.app/',
+    linkOne: 'http://atlas-designs.vercel.app/',
     linkTwo: 'https://nikola-tesla.vercel.app/',
     linkThree: 'http://crypto-api-indol.vercel.app/',
 
