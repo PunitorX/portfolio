@@ -1,9 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { Button } from './Button'
 import './IntroSection.css'
 
-function IntroSection({intro, span, name, desc, resume}) {
+function IntroSection({intro, span, name, desc}) {
   return (
     <div className="intro">
         <div className="intro-container">

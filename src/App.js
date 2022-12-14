@@ -57,7 +57,7 @@ function App() {
             </li>
             <li className="nav-item nav-btn">
               {Button ? (
-                  <Link to='../../Robert Jones Resume.pdf' target='_blank' className='btn-link'>
+                  <Link to='../../Brendan Jones Resume.pdf' target='_blank' className='btn-link'>
                     <Button buttonStyle='primary' buttonColor='btn-dark'>Resume</Button>
                   </Link>
               ) : (

@@ -8,20 +8,20 @@ export const introData = {
 
 export const projectData = {
     title: 'My Current Projects',
-    itemOne: 'Atlas Designs',
-    itemTwo: 'Nikola Tesla Tribute Page',
+    itemOne: 'Marketplace',
+    itemTwo: 'Carbonhouse',
     itemThree: 'Crypto Axios Request',
-    bodyOne: 'Atlas Designs is an e-commerce website to sell, explore, repair, and trade computer parts, supplies, and accessories.',
-    bodyTwo: 'This project is a Nikola Tesla Tribute Page. It includes short snippets about periods of his life and 4 slides that include 4 of his most important inventions and a section that includes some of his most famous quotes.',
+    bodyOne: 'Marketplace is a current e-commerce project for Direct Software Solutions. It is used to sell and create custom templates. Customers can either buy pre-built templates or design one of their using given components. If desired, customers can also have a template built with a consultation.',
+    bodyTwo: 'Carbonhouse is a ticket venue website for concerts and various shows. The design came based off of a figma given in a mock test.',
     bodyThree: 'Crypto Axios Request uses the axios package to request data from the REST API provided by CoinGecko.com. It provides data for various cryptocurrencies and is updated daily.',
-    listOne: 'React JS, CSS, Styled Components',
-    listTwo: 'HTML, CSS, BootStrap',
+    listOne: '',
+    listTwo: 'HTML, SASS, JavaScript',
     listThree: 'React JS, TailWind CSS',
-    gitOne: 'https://github.com/PunitorX/Atlas-Designs',
-    gitTwo: 'https://github.com/PunitorX/Nikola-Tesla',
+    gitOne: '',
+    gitTwo: 'https://github.com/PunitorX/Carbonhouse',
     gitThree: 'https://github.com/PunitorX/crypto-api',
-    linkOne: 'http://atlas-designs.vercel.app/',
-    linkTwo: 'https://nikola-tesla.vercel.app/',
+    linkOne: 'https://marketplace-react-eosin.vercel.app/ ',
+    linkTwo: 'http://carbonhouse-test.vercel.app/',
     linkThree: 'http://crypto-api-indol.vercel.app/',
 
     titleTwo: 'More Projects',
@@ -43,21 +43,21 @@ export const projectData = {
 
     sItemFour: 'Weather Forecact',
     sItemFive: 'Digital Clock',
-    sItemSix: 'JavaScript Stopwatch',
+    sItemSix: 'Nikola Tesla Biography',
     sBodyFour: 'A basic weather forecast using ASYNC/AWAIT fetch, with BootsWatch and Openweather.com.',
     sBodyFive: 'A digital clock displaying the time in Murray, Kentucky',
-    sBodySix: 'Just a simple stopwatch made with JavaScript using DOM manipulation and functions.',
+    sBodySix: 'This project is a Nikola Tesla Tribute Page. It includes short snippets about periods of his life and some of his most famous inventions',
     sListFour: 'HTML, Bootstrap, JS',
     sListFive: 'HTML, CSS, JS',
-    sListSix: 'HTML, CSS, JS',
+    sListSix: 'HTML, CSS, BootStrap',
 
     sGitFour: 'https://github.com/PunitorX/Weather-forecast-practice',
     sGitFive: 'https://github.com/PunitorX/JavaScript-DigitalClock',
-    sGitSix: 'https://github.com/PunitorX/JavaScript-StopWatch',
+    sGitSix: 'https://github.com/PunitorX/Nikola-Tesla',
 
     sLinkFour: 'https://punitorx.github.io/Weather-forecast-practice/',
     sLinkFive: 'https://punitorx.github.io/JavaScript-DigitalClock/',
-    sLinkSix: 'https://punitorx.github.io/JavaScript-StopWatch/'
+    sLinkSix: 'https://nikola-tesla.vercel.app/'
 }
 
 export const aboutData = {
