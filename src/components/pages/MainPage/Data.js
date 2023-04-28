@@ -12,7 +12,7 @@ export const projectData = {
     itemTwo: 'Explore Space (Name Pending)',
     itemThree: 'Portfolio v2',
     bodyOne: 'A web application created to facilitate small businesses and individuals in managing their financial activities, expense tracking, and generating financial reports.',
-    bodyTwo: 'A developing web application for exploring the solar system and learning about Astronomythrough historical perspectives, images, and accurate recorded data. Carbonhouse is a ticket venue website for concerts and various shows. The design came based off of a figma given in a mock test.',
+    bodyTwo: 'A developing web application for exploring the solar system and learning about Astronomy through historical perspectives, images, and accurate recorded data.',
     bodyThree: 'An in-development 2nd version of my portfolio. I am designing and customizing with Sass, while using Vite Js for functionality and markup',
     listOne: 'React JS, Sass,',
     listTwo: 'Remix Js, Sass, MongoDB, Rest APIs',
