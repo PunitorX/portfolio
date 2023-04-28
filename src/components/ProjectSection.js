@@ -35,6 +35,17 @@ function ProjectSection({
                   {titleTwo}
               </div>
               <div className="small-cards-list">
+              <div className="small-card-group">
+                  <div className="small-cards-item">
+                    <Cards name={sItemSeven} body={sBodySeven} list={sListSeven} git={sGitSeven} link={sLinkSeven}/>
+                  </div>
+                  <div className="small-cards-item">
+                    <Cards name={sItemEight} body={sBodyEight} list={sListEight} git={sGitEight} link={sLinkEight}/>
+                  </div>
+                  <div className="small-cards-item">
+                    <Cards name={sItemNine} body={sBodyThree} list={sListThree} git={sGitThree} link={sLinkThree}/>
+                  </div>
+                </div>
                 <div className="small-card-group">
                   <div className="small-cards-item">
                     <Cards name={sItemOne} body={sBodyOne} list={sListOne} git={sGitOne} link={sLinkOne}/>

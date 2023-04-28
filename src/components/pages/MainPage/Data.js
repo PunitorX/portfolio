@@ -57,7 +57,26 @@ export const projectData = {
 
     sLinkFour: 'https://punitorx.github.io/Weather-forecast-practice/',
     sLinkFive: 'https://punitorx.github.io/JavaScript-DigitalClock/',
-    sLinkSix: 'https://nikola-tesla.vercel.app/'
+    sLinkSix: 'https://nikola-tesla.vercel.app/',
+
+    sItemSeven: 'Atlas Designs',
+    sBodySeven: 'Atlas Designs is an e-commerce MERN stack project that is based around the selling and trading of computer parts.',
+    sListSeven: 'React Js, Redux, Node Js, Express Js, MongoDb, Styled Components',
+    sGitSeven: 'https://github.com/PunitorX/Atlas-Designs',
+    sLinkSeven: 'https://atlas-designs.vercel.app/',
+
+    sItemEight: 'Carbonhouse',
+    sBodyEight: 'A customly designed Figma page that allows users to buy tickets for concerts, shows, and popular event venues',
+    sListEight: 'HTML, CSS, Sass, JavaScript',
+    sGitEight: 'https://github.com/PunitorX/Carbonhouse',
+    sLinkEight: 'http://carbonhouse-test.vercel.app/',
+
+    sItemNine: 'Crypto Axios Request',
+    sBodyNine: 'Crypto Axios Request uses the axios package to request data from the REST API provided by CoinGecko.com. It provides data for various cryptocurrencies and is updated daily.',
+    sListNine: 'HTML, CSS, TailwindCSS, JavaScript',
+    sGitNine: 'https://github.com/PunitorX/Crypto-Axios-Request',
+    sLinkNine: 'https://crypto-api-indol.vercel.app/'
+    
 }
 
 export const aboutData = {
