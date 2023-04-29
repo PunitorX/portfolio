@@ -15,7 +15,7 @@ export const projectData = {
     bodyTwo: 'A developing web application for exploring the solar system and learning about Astronomy through historical perspectives, images, and accurate recorded data.',
     bodyThree: 'An in-development 2nd version of my portfolio. I am designing and customizing with Sass, while using Vite Js for functionality and markup',
     listOne: 'React JS, Sass,',
-    listTwo: 'Remix Js, Sass, MongoDB, Rest APIs',
+    listTwo: 'Remix Js, Sass, Node Js, Rest APIs',
     listThree: 'Vite Js, Sass',
     gitOne: '',
     gitTwo: 'https://github.com/PunitorX/Explore-Space',
