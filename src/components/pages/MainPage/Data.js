@@ -61,7 +61,7 @@ export const projectData = {
 
     sItemSeven: 'Atlas Designs',
     sBodySeven: 'Atlas Designs is an e-commerce MERN stack project that is based around the selling and trading of computer parts.',
-    sListSeven: 'React Js, Redux, Node Js, Express Js, MongoDb, Styled Components',
+    sListSeven: 'React Js, Redux, MERN Stack, Styled Components',
     sGitSeven: 'https://github.com/PunitorX/Atlas-Designs',
     sLinkSeven: 'https://atlas-designs.vercel.app/',
 
