@@ -4,9 +4,7 @@ import Card from './Cards'
 import Cards from './Card.js'
 
 function ProjectSection({
-  title, titleTwo, itemOne, itemTwo, itemThree, bodyOne, bodyTwo, bodyThree, listOne, listTwo, listThree, gitOne, gitTwo, gitThree, linkOne, linkTwo, linkThree, sItemOne, sItemTwo, sItemThree,sBodyOne, sBodyTwo, sBodyThree, sListOne, sListTwo, sListThree, sGitOne, sGitTwo, sGitThree, sLinkOne, sLinkTwo, sLinkThree,
-
-  itemFour, itemFive, itemSix, bodyFour, bodyFive, bodySix, listFour, listFive, listSix, gitFour, gitFive, gitSix, linkFour, linkFive, linkSix, sItemFour, sItemFive, sItemSix,sBodyFour, sBodyFive, sBodySix, sListFour, sListFive, sListSix, sGitFour, sGitFive, sGitSix, sLinkFour, sLinkFive, sLinkSix
+  title, titleTwo, itemOne, itemTwo, itemThree, bodyOne, bodyTwo, bodyThree, listOne, listTwo, listThree, gitOne, gitTwo, gitThree, linkOne, linkTwo, linkThree, sItemOne, sItemTwo, sItemThree,sBodyOne, sBodyTwo, sBodyThree, sListOne, sListTwo, sListThree, sGitOne, sGitTwo, sGitThree, sLinkOne, sLinkTwo, sLinkThree, sItemFour, sItemFive, sItemSix,sBodyFour, sBodyFive, sBodySix, sListFour, sListFive, sListSix, sGitFour, sGitFive, sGitSix, sLinkFour, sLinkFive, sLinkSix, sItemSeven, sItemEight, sItemNine, sBodySeven, sBodyEight, sBodyNine, sListSeven, sListEight, sListNine, sGitSeven, sGitEight, sGitNine, sLinkSeven, sLinkEight, sLinkNine
 
 }) {
   return (
@@ -34,8 +32,10 @@ function ProjectSection({
               <div className="small-cards-title">
                   {titleTwo}
               </div>
+
               <div className="small-cards-list">
-              <div className="small-card-group">
+
+                <div className="small-card-group">
                   <div className="small-cards-item">
                     <Cards name={sItemSeven} body={sBodySeven} list={sListSeven} git={sGitSeven} link={sLinkSeven}/>
                   </div>
@@ -43,9 +43,10 @@ function ProjectSection({
                     <Cards name={sItemEight} body={sBodyEight} list={sListEight} git={sGitEight} link={sLinkEight}/>
                   </div>
                   <div className="small-cards-item">
-                    <Cards name={sItemNine} body={sBodyThree} list={sListThree} git={sGitThree} link={sLinkThree}/>
+                    <Cards name={sItemNine} body={sBodyNine} list={sListNine} git={sGitNine} link={sLinkNine}/>
                   </div>
                 </div>
+
                 <div className="small-card-group">
                   <div className="small-cards-item">
                     <Cards name={sItemOne} body={sBodyOne} list={sListOne} git={sGitOne} link={sLinkOne}/>
