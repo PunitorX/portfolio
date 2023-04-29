@@ -47,10 +47,10 @@ function App() {
               <BsFillMoonStarsFill size={20}className='nav-toggle' />
             </li>
             <li className="nav-item" id='nav-icon'>
-              <a href="https://github.com/PunitorX" className='nav-link'><BsGithub /></a>
+              <a href="https://github.com/PunitorX" target="_blank" className='nav-link'><BsGithub /></a>
             </li>
             <li className="nav-item" id='nav-icon'>
-              <a href="https://www.linkedin.com/in/brendan-jones-75ab16227/" className='nav-link'><BsLinkedin /></a>
+              <a href="https://www.linkedin.com/in/brendan-jones-75ab16227/" target="_blank" className='nav-link'><BsLinkedin /></a>
             </li>
             <li className="nav-item" id='nav-icon'>
               <a href="mailto:jones.brendan1996@gmail.com" target="google.com" className='nav-link'><AiFillMail /></a>
