@@ -33,10 +33,10 @@ function Cards({name, body, list, git, link}) {
                         {list}
                     </div>
                     <div className="small-card-icons">
-                        <a href={git} className="small-card-icon-item">
+                        <a href={git} target="_blank" className="small-card-icon-item">
                                 <BsGithub />
                         </a>
-                        <a href={link} className="small-card-icon-item">
+                        <a href={link} target="_blank" className="small-card-icon-item">
                             <BiLinkExternal />
                         </a>
                     </div>    
